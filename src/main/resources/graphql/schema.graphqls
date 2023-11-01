@@ -1,0 +1,31 @@
+type Mutation{
+
+createEmployee(employee:EmployeeInput) : Employee
+}
+
+
+type Query{
+
+allEmployee:[Employee]
+getEmployee(employeeId:Int):Employee
+
+}
+
+type Employee{
+    id:ID!
+    firtsName:String
+    lastName:String
+    jobTitle:String
+    gender:String
+    division:String
+    address:String
+}
+
+input EmployeeInput{
+    firtsName:String
+    lastName:String
+    jobTitle:String
+    gender:String
+    division:String
+    address:String
+}

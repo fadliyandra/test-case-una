@@ -1,0 +1,3 @@
+intruction : run app and docker
+
+http://localhost:9097/graphiql?/path=/graphql&path=/graphql&wsPath=/graphql
